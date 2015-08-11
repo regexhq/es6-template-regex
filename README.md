@@ -1,4 +1,4 @@
-# es-6-template-regex [![NPM version](https://badge.fury.io/js/es-6-template-regex.svg)](http://badge.fury.io/js/es-6-template-regex)  [![Build Status](https://travis-ci.org/jonschlinkert/es-6-template-regex.svg)](https://travis-ci.org/jonschlinkert/es-6-template-regex)
+# es-6-template-regex [![NPM version](https://badge.fury.io/js/es-6-template-regex.svg)](http://badge.fury.io/js/es-6-template-regex)
 
 > Regular expression for matching es6 template delimiters in a string.
 
