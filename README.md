@@ -1,4 +1,4 @@
-# es-6-template-regex [![NPM version](https://badge.fury.io/js/es-6-template-regex.svg)](http://badge.fury.io/js/es-6-template-regex)
+# es6-template-regex [![NPM version](https://badge.fury.io/js/es6-template-regex.svg)](http://badge.fury.io/js/es6-template-regex)
 
 > Regular expression for matching es6 template delimiters in a string.
 
@@ -7,7 +7,7 @@
 Install with [npm](https://www.npmjs.com/)
 
 ```sh
-$ npm i es-6-template-regex --save
+$ npm i es6-template-regex --save
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm i es-6-template-regex --save
 The top-level export of this module is a function:
 
 ```js
-var re = require('es-6-template-regex');
+var re = require('es6-template-regex');
 
 function interpolate(str, data) {
   return str.replace(re(), function(m, prop) {
@@ -39,7 +39,7 @@ $ npm i -d && npm test
 
 ## Contributing
 
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/es-6-template-regex/issues/new)
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/es6-template-regex/issues/new)
 
 ## Author
 
