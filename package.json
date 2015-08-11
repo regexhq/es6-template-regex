@@ -23,5 +23,12 @@
   "devDependencies": {
     "mocha": "*"
   },
-  "keywords": []
+  "keywords": [
+    "delimiter",
+    "es",
+    "expression",
+    "regex",
+    "regexp",
+    "regular"
+  ]
 }
