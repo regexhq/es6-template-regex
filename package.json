@@ -2,11 +2,11 @@
   "name": "es6-template-regex",
   "description": "Regular expression for matching es6 template delimiters in a string.",
   "version": "0.1.1",
-  "homepage": "https://github.com/jonschlinkert/es6-template-regex",
+  "homepage": "https://github.com/regexhq/es6-template-regex",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/es6-template-regex",
+  "repository": "regexhq/es6-template-regex",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/es6-template-regex/issues"
+    "url": "https://github.com/regexhq/es6-template-regex/issues"
   },
   "license": "MIT",
   "files": [
