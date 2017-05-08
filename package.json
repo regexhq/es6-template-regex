@@ -4,6 +4,10 @@
   "version": "0.1.1",
   "homepage": "https://github.com/regexhq/es6-template-regex",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "contributors": [
+    "Anders D. Johnson (https://andrz.me)",
+    "Jon Schlinkert (http://twitter.com/jonschlinkert)"
+  ],
   "repository": "regexhq/es6-template-regex",
   "bugs": {
     "url": "https://github.com/regexhq/es6-template-regex/issues"
@@ -19,16 +23,38 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {},
   "devDependencies": {
-    "mocha": "*"
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.3.0"
   },
   "keywords": [
     "delimiter",
     "es",
+    "es6",
     "expression",
     "regex",
     "regexp",
-    "regular"
-  ]
+    "regular",
+    "template"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "to-regex-range",
+        "unc-path-regex",
+        "whitespace-regex"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
 }

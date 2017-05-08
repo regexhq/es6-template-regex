@@ -1,6 +1,7 @@
 /*!
  * es6-template-regex <https://github.com/jonschlinkert/es6-template-regex>
- * Copyright (c) 2014-2015, Jon Schlinkert, 2014 Lo-Dash 2.4.1 <http://lodash.com/>
+ * Copyright (c) 2014-2017, Jon Schlinkert,
+ * Copyright (c) 2014 Lo-Dash 2.4.1 <http://lodash.com/>
  * Licensed under the MIT License.
  *
  * Used to match ES template delimiters

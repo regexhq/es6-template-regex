@@ -1,4 +1,6 @@
-/* deps: mocha */
+'use strict';
+
+require('mocha');
 var assert = require('assert');
 var re = require('./');
 
@@ -8,8 +10,8 @@ function interpolate(str, data) {
   });
 }
 
-describe('es6 regex', function () {
-  it('should match es6 template delimiters in a string.', function () {
+describe('es6 regex', function() {
+  it('should match es6 template delimiters in a string.', function() {
     var str = 'foo ${bar} baz ${quux}';
     var data = {bar: 'AAA', quux: 'BBB'};
     assert.equal(interpolate(str, data), 'foo AAA baz BBB');
